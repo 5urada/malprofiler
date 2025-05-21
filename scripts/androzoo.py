@@ -15,7 +15,7 @@ def main():
     parser.add_argument(
         "-i", "--input",
         type=Path,
-        default=project_root / "datasets" / "latest.csv.gz",
+        default=project_root / "datasets" / "latest_with-added-date.csv.gz",
         help="Path to the gzipped metadata CSV file"
     )
     parser.add_argument(
