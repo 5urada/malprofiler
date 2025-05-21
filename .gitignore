@@ -1,1 +1,6 @@
 datasets/*.csv.gz
+utils/__pycache__/
+scripts/__pycache__/
+__pycache__/
+*.py[cod]
+
